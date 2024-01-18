@@ -1,0 +1,13 @@
+/* Add this style to your component's CSS or the global styles */
+.star {
+    fill: none;
+    stroke: #f5c150; /* Set the outline color to your preference */
+    stroke-width: 2; /* Set the outline width to your preference */
+    cursor: pointer;
+  }
+  
+  /* Add this style to highlight the stars based on the selectedRating */
+  .star.highlight {
+    fill: #f5c150; /* Set the fill color to your preference for highlighted stars */
+  }
+  
